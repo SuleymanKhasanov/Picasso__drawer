@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picaso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+    <div class="pencl"><i class="fa-solid fa-pencil"></i><input type="range" class="range" style="margin-left: 20px;"/></i></div>
+      <h1 class="logo">Picaso</h1>
+    
+    </header>
+    <div class="container">
+      <ul class="controls">
+        <li class="controls__item">
+          <button class="controls__btn save-btn"><i class="fa-regular fa-floppy-disk"></i></button>
+        </li>
+        <li class="controls__item">
+          <button class="controls__btn color-drop"><i class="fa-solid fa-fill-drip"></i></button>
+        </li>
+      </ul>
+      <canvas class="canvas" id="canvas"></canvas>
+      <ul class="colors">
+        <li class="colors__item" style="background-color: #000"></li>
+        <li class="colors__item" style="background-color: #fff"></li>
+        <li class="colors__item" style="background-color: #fb0207"></li>
+        <li class="colors__item" style="background-color: #ffff0a"></li>
+        <li class="colors__item" style="background-color: #0000ff"></li>
+        <li class="colors__item" style="background-color: #21ffff"></li>
+        <li class="colors__item" style="background-color: #21ff06"></li>
+        <li class="colors__item" style="background-color: #800080"></li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
