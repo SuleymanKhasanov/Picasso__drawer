@@ -37,6 +37,7 @@ ul {
   margin-bottom: 30px;
   box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.12);
   cursor: pointer;
+  color: #000;
 }
 
 .controls__btn:active {
